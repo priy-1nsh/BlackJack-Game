@@ -778,7 +778,7 @@ function newCard() {
 
 ---
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > **Math.random() method and it's use cases**
 > ### 🔢 `Math.random()` in JavaScript
 Note that `Math` is an object.
@@ -842,7 +842,6 @@ console.log(getRandomInt(1, 6));  // Simulates a dice roll
 * Always gives a **new random number** each time it's called.
 * If you need **true randomness** (e.g. for cryptography), use `crypto.getRandomValues()` instead.
 
-Would you like to try some small exercises using `Math.random()`?
 ---
 
 > So, basically `Math.random()` gives you a random number between 0 (inclusive) and 1 (exclusive). And, if you need a random number between 0 and N, you can simply multiply it by N, that is, `Math.random() * N`.
